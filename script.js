@@ -17,7 +17,7 @@ let box = document.getElementById("box");
 box.onclick = function(){
     count++;
   
-    if (count === 7) {
+    if (count === 12) {
     document.getElementById("box-tape").classList.remove("box-tape-active");
     document.getElementById("box-tape-left").classList.remove("box-tape-left-active");
     document.getElementById("box-tape-right").classList.remove("box-tape-right-active");
