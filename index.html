@@ -1,0 +1,358 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap'); </style>
+  </head>
+  <body style="  background-image: url('https://lh6.googleusercontent.com/proxy/KudZgzwmEo9QL7Fsm0edCddC-IOG2kC1-0SDdvl7GrJ_fF9u9YoRrHBcr32aV6y9UV90WJ8kJQtCQi1DYZYdsjmjh-pXG3QzHumGUREF3Vtu3ZXV9noSwaCfmSS4yWGlruSiaSgEWlA0zPEd-rSC=w1200-h630-p-k-no-nu');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Quicksand', sans-serif;">
+  <div id="kado" class="kado" style="text-align: center; color: white;
+  text-shadow: 2px 2px 0 #202020, 4px 4px 0 #9c9c9c;">
+      <h2>Tap Tap</h2>
+  
+  <div id="box" class="box">
+      <div id="box-tape" class="box-tape">
+      <div id="box-tape-left" class="box-tape-left"></div>
+      <div class="box-tape-right" id="box-tape-right"></div>
+      <div class="box-tape-center"></div>
+      </div>
+  <div class="box-gifts" id="box-gifts">
+      <div class="box-gift-shadow" id="box-gift-shadow"></div>
+  </div>
+  <div class="box-gift" id="box-gift"></div>
+  <div id="box-star1" class="box-star box-star-1"></div>
+  <div id="box-star2" class="box-star box-star-2"></div>
+  <div id="box-star3" class="box-star box-star-3"></div>
+  <div id="box-star4" class="box-star box-star-4"></div>
+  <div id="box-star5" class="box-star box-star-5"></div>
+
+  </div>
+</div>
+    <div class="container">
+        <!-- Button trigger modal -->
+  <button type="button" data-bs-dismiss="modal" id="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" hidden>
+    Launch demo modal
+  </button>
+  
+  <!-- Modal kado-->
+  <div class="modal animate__animated animate__zoomInDown" id="exampleModal" data-bs-keyboard="false" data-bs-backdrop="static"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body" style="height: 300px; background-image: url('https://media.giphy.com/media/TmT51OyQLFD7a/giphy.gif');background-size: cover;background-position: center;">
+        
+        </div>
+        <div class="modal-footer d-flex justify-content-center p-0" style="background-color: rgb(153, 3, 10);">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal1" data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent;color: white;">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 1 -->
+  <div class="modal fade" data-bs-keyboard="false" data-bs-backdrop="static" id="exampleModal1"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+            <div class="gambargif"  style="height: 300px; background-image: url('  https://i.pinimg.com/originals/36/cd/f4/36cdf42ee9179717d2d78cc6262bbe94.gif');background-size: cover;background-position: center;">
+            </div>
+         <p class="text mt-2" style="text-align: center;">
+             Selamat Tahun Baru ! <br>
+             🎉🎉🎉
+         </p>
+        </div>
+        <div class="modal-footer d-flex justify-content-center p-0" style="border: crimson solid 1px;background-image: linear-gradient(220deg, #073AFFFF 0%, #073AFFFF 18%, #FF0721FF 69%, #FF00D2FF 100%);">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal2"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent; color: white;">Lanjut...</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 2 -->
+  <div class="modal fade" id="exampleModal2" data-bs-keyboard="false" data-bs-backdrop="static"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header" style="background-image: linear-gradient(220deg, #FF00D2FF 0%, #073AFFFF 100%);">
+        </div>
+        <div class="modal-body">
+         <p class="text" style="text-align: center;">
+             Gimana taun baruannya Seru ??? Di luar atau dirumah aja ni xixiixix
+         </p>
+        </div>
+        <div class="modal-footer d-flex justify-content-center p-0" style="border: red solid 1px;">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal3-opsi-ya"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent;">Di luar dong</button>
+        </div>
+        <div class="modal-footer d-flex justify-content-center p-0" style="border: yellow solid 1px;">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal3-opsi-tidak"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent;">Di Rumah Aja -_-</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 3 opsi ya -->
+  <div class="modal fade" id="exampleModal3-opsi-ya"  data-bs-keyboard="false" data-bs-backdrop="static" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header" style="background-image: linear-gradient(220deg, #FF00D2FF 0%, #073AFFFF 100%);">
+        </div>
+        <div class="modal-body" style="text-align: justify;">
+         Wih pasti seru ni menikmati tahun baruan bareng keluarga/temen temen ada hitungan mundurnya kah,,, <br>
+        Babakaran ni awas tar kegosongan makan arang dong nantinya xixiixix.... biar lebih seru lagi bakar rumah biar pada datang tambah rame entar (canda canda) wkwkkw
+        </div>
+        <div class="modal-footer d-flex justify-content-center p-0" style="border-color: aqua;background-image: linear-gradient(220deg, #073AFFFF 0%, #073AFFFF 18%, #FF0721FF 69%, #FF00D2FF 100%);">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal4"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent; color: white;">Lanjut</button>
+        </div>
+        <!-- <div class="modal-footer d-flex justify-content-center p-0" style="border-color: aqua;">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal4"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent;">Tidak</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- Modal 3 opsi tidak -->
+  <div class="modal fade" id="exampleModal3-opsi-tidak"  data-bs-keyboard="false" data-bs-backdrop="static" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header" style="background-image: linear-gradient(220deg, #FF00D2FF 0%, #073AFFFF 100%);">
+        </div>
+        <div class="modal-body" style="text-align: center;">
+         Hiya hiya sama dong xixixixi, Tapi meskipun di rumah tetap seru lah ya babakaran mandiri kah? ngundang sodara kah? atau main game terus ni xixixi
+        </div>
+        <div class="modal-footer d-flex justify-content-center p-0" style="border-color: aqua;background-image: linear-gradient(220deg, #073AFFFF 0%, #073AFFFF 18%, #FF0721FF 69%, #FF00D2FF 100%);">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal4"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent; color: white;">Lanjut</button>
+        </div>
+        <!-- <div class="modal-footer d-flex justify-content-center p-0" style="border-color: aqua;">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal4"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent;">Tidak</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- Modal 4 -->
+  <div class="modal fade" id="exampleModal4"  aria-labelledby="exampleModalLabel" data-bs-keyboard="false" data-bs-backdrop="static" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header" style="background-image: linear-gradient(220deg, #FF00D2FF 0%, #073AFFFF 100%);">
+        </div>
+        <div class="modal-body">
+          <p class="text" style="text-align: center;">
+            Aku mau bilang Terimakasih sudah banyak banget ngabantu aku dan mau minta maaf ni juga karena selalu bikin kamu repot wkwkwkwk.. semoga di tahun 2023 bisa menjadi lebih baik lagi dibanding sebelumnya... <br>
+            Dimaafin Gak Ni xixixi
+        </p>
+        </div>
+        <div class="modal-footer d-flex justify-content-center p-0" style="border: 1px solid red;">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal5-opsi-ya"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent;">Yaudahla</button>
+        </div>
+        <div class="modal-footer d-flex justify-content-center p-0" style="border: 1px solid yellow;">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal5-opsi-tidak"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent;">Enggak Masa Bodo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal 5 opsi ya -->
+  <div class="modal fade" data-bs-keyboard="false" data-bs-backdrop="static" id="exampleModal5-opsi-ya"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header" style="background-image: linear-gradient(220deg, #FF00D2FF 0%, #073AFFFF 100%);">
+        </div>
+        <div class="modal-body" style="text-align: center;">
+         Terimakasih Banyak,,,
+        </div>
+        <div class="modal-footer d-flex justify-content-center p-0" style="border-color: aqua;background-image: linear-gradient(220deg, #073AFFFF 0%, #073AFFFF 18%, #FF0721FF 69%, #FF00D2FF 100%);">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal6"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent; color: white;">Lanjut</button>
+        </div>
+        <!-- <div class="modal-footer d-flex justify-content-center p-0" style="border-color: aqua;">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal4"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent;">Tidak</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- Modal 5 opsi tidak -->
+  <div class="modal fade" id="exampleModal5-opsi-tidak" data-bs-keyboard="false" data-bs-backdrop="static"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header" style="background-image: linear-gradient(220deg, #FF00D2FF 0%, #073AFFFF 100%);">
+        </div>
+        <div class="modal-body" style="text-align: center;">
+         Huaaaaaa....... Aku harus apa dong biar dimaafin <br>
+         (Entar tulis aja di Kesan pesan)
+        </div>
+        <div class="modal-footer d-flex justify-content-center p-0" style="border-color: aqua;background-image: linear-gradient(220deg, #073AFFFF 0%, #073AFFFF 18%, #FF0721FF 69%, #FF00D2FF 100%);">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal6"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent; color: white;">Lanjut</button>
+        </div>
+        <!-- <div class="modal-footer d-flex justify-content-center p-0" style="border-color: aqua;">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal4"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent;">Tidak</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- Modal 6 -->
+  <div class="modal fade" id="exampleModal6"  data-bs-keyboard="false" data-bs-backdrop="static" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header" style="background-image: linear-gradient(220deg, #FF00D2FF 0%, #073AFFFF 100%);">
+        </div>
+        <div class="modal-body">
+          Semoga Ditahun 2023 mendatang apa yang kita harapkan dan tujuannya bisa terwujud, semoga diberikan umur yang panjang dan sehat walafiat (dan uang jalan terus xixixi), <br>
+          Meskipun nanti ada KKN (kkn gak si) dan jadwal kuliah yang semakin padat, semoga dapat melewatinya dengan lancar apalagi full luring kali ya semangat aja lah xixixi <br>
+          sekarang mah nikmatin liburan aja dulu xixixi
+        </div>
+        <div class="modal-footer d-flex justify-content-center p-0" style="border-color: aqua; background-image: linear-gradient(220deg, #073AFFFF 0%, #073AFFFF 18%, #FF0721FF 69%, #FF00D2FF 100%);">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal8"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent;color: white;">Lanjut</button>
+        </div>
+        <!-- <div class="modal-footer d-flex justify-content-center p-0" style="border-color: aqua;">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal7-opsi-tidak"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent;">Tidak</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- Modal 7 opsi ya -->
+  <!-- <div data-bs-keyboard="false" data-bs-backdrop="static" class="modal fade" id="exampleModal7-opsi-ya"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header" style="background-image: linear-gradient(220deg, #FF00D2FF 0%, #073AFFFF 100%);">
+        </div>
+        <div class="modal-body">
+         Modal 7 opsi ya
+        </div>
+        <div class="modal-footer d-flex justify-content-center p-0" style="border-color: aqua;">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal8"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent;">Lanjut</button>
+        </div> -->
+        <!-- <div class="modal-footer d-flex justify-content-center p-0" style="border-color: aqua;">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal4"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent;">Tidak</button>
+        </div> -->
+      <!-- </div>
+    </div>
+  </div> -->
+  <!-- Modal 7 opsi tidak -->
+  <!-- <div class="modal fade" data-bs-keyboard="false" data-bs-backdrop="static" id="exampleModal7-opsi-tidak"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header" style="background-image: linear-gradient(220deg, #FF00D2FF 0%, #073AFFFF 100%);">
+        </div>
+        <div class="modal-body">
+          Modal 5opsi tidak
+        </div>
+        <div class="modal-footer d-flex justify-content-center p-0" style="border-color: aqua;">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal8"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent;">Lanjut</button>
+        </div> -->
+        <!-- <div class="modal-footer d-flex justify-content-center p-0" style="border-color: aqua;">
+          <button type="button" data-bs-dismiss="modal" data-bs-target="#exampleModal4"  data-bs-toggle="modal" class="btn" style="width: 100%;height: 100%;border-color: transparent;">Tidak</button>
+        </div> -->
+      <!-- </div>
+    </div>
+  </div> -->
+  <!-- Modal 8 -->
+  <div class="modal fade" data-bs-keyboard="false" data-bs-backdrop="static" id="exampleModal8"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header" style="background-image: linear-gradient(220deg, #FF00D2FF 0%, #073AFFFF 100%);" style="background-color: rgba(255, 217, 0, 0.815);">
+        </div>
+        <div class="modal-body">
+          <form name="kesan-pesan">
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label labelpesan" style="text-align: center;">Kesan pesan / kritik dan saran atau harapan, bila tidak ada ketik (-): </label>
+              <br>
+              
+              <div class="alert alertgagal alert-danger d-none" role="alert">
+                Pesan gagal terkirim
+              </div>
+              <div class="d-none pesankirim" role="">
+                <div class="alert pesankirim alert-success d-flex align-items-center" role="alert">
+                  <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+                  <div style="text-align: center;">
+                    Pesan sudah terkirim
+                  </div>
+                </div>
+                <img src="https://i.pinimg.com/originals/35/9b/8b/359b8b917f1506fb230c3e62e48f785c.gif" style="height: 300px;" class="img-fluid mb-2" alt="">
+                <p class="text" style="text-align: center;"> Terimakasih sudah meluangkan waktunya, selamat tahun baru dan hibernasi xixixi</p>
+                
+              </div>
+              <div class="loading mb-3 mt-1 d-flex justify-content-center d-none">
+              <div class="spinner-grow text-warning spinner-grow-sm " role="status"> 
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-grow text-warning spinner-grow-sm" role="status"> 
+                <span class="visually-hidden">Loading...</span>
+              </div>
+              <div class="spinner-grow text-warning spinner-grow-sm" role="status"> 
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+              <textarea required type="text" name="pesan" id="pesan" class="form-control" id="message-text"></textarea>
+            </div>
+            
+        </div>
+        <div class="modal-footer d-flex justify-content-center p-0" style="background-image: linear-gradient(220deg, #073AFFFF 0%, #073AFFFF 18%, #FF0721FF 69%, #FF00D2FF 100%);">
+          <button type="submit" class="btn btnkirim" style="width: 100%;height: 100%;border-color: transparent; color: white;">Kirim</button>
+        </div>
+      </form>
+       
+      </div>
+    </div>
+  </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+        </symbol>
+        <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+        </symbol>
+        <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+        </symbol>
+      </svg>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <!-- script js sendiri -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxIqY03pGiTF_shI3OTiB_UheWnXAQ9s-5-cYQDEVpEfb90X-Ap4Dndyw0veKjy-L2T/exec'
+        const form = document.forms['kesan-pesan'];
+        const btnkirim=document.querySelector(".btnkirim")
+        const loading=document.querySelector(".loading");
+        const pesankirim=document.querySelector(".pesankirim");
+        const alertgagal=document.querySelector(".alertgagal")
+        const pesan=document.getElementById("pesan")
+        const labelpesan=document.querySelector(".labelpesan")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          // submnit
+          loading.classList.toggle("d-none")
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+              labelpesan.classList.toggle("d-none")
+              loading.classList.toggle("d-none")
+              pesankirim.classList.toggle("d-none")
+              btnkirim.classList.toggle("d-none")
+              form.reset();
+              pesan.classList.toggle("d-none")
+              
+              console.log('Success!', response)})
+            .catch(error => {
+              alertgagal.classList.toggle("d-none")
+              console.error('Error!', error.message)})
+        })
+      </script>
+      <script src="script.js"></script>
+  </body>
+</html>
